@@ -1,0 +1,468 @@
+/* top navigation start */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: pink;
+  color: white;
+}
+
+
+/* top navigation end */
+
+
+
+
+/* homepage start */
+
+.parallax1 {
+  /* The image used */
+  background-image: url('file:///C:/Users/Asus/OneDrive/S5%20KIM1105B/IMD311%20SIR%20AIRUL/NUR%20FATIN%20ATIRAH%20BINTI%20MAHMAD%20ZULKEFLI_2020469242/assest/image/gallery_random_18.jpg');
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */ 
+ background-image: url('file:///C:/Users/Asus/OneDrive/S5%20KIM1105B/IMD311%20SIR%20AIRUL/NUR%20FATIN%20ATIRAH%20BINTI%20MAHMAD%20ZULKEFLI_2020469242/assest/image/gallery_random_10.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url('file:///C:/Users/Asus/OneDrive/S5%20KIM1105B/IMD311%20SIR%20AIRUL/NUR%20FATIN%20ATIRAH%20BINTI%20MAHMAD%20ZULKEFLI_2020469242/assest/image/gallery_random_18.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* homepage end */
+
+
+/* experience start*/
+
+.banner {
+    /* The image used */
+    background-image:
+    url(file:///C:/Users/Asus/OneDrive/S5%20KIM1105B/IMD311%20SIR%20AIRUL/NUR%20FATIN%20ATIRAH%20BINTI%20MAHMAD%20ZULKEFLI_2020469242/assest/image/gallery_random_18.jpg);
+    /* Set height */
+    height: 25%;
+  }
+
+
+body {
+  counter-reset: song;
+}
+
+h3::before {
+  counter-increment: song;
+  content: "song " counter(song) ": ";
+}
+
+
+
+.clock {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: #002560;
+  border-radius: 50%;
+  border: 10px solid white;
+  margin: 2em auto;
+}
+
+/* TIME */
+#twelve {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 49%;
+}
+#one {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 70%;
+  top: 4%;
+  transform: rotate(30deg);
+}
+#two {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 88%;
+  top: 22%;
+  transform: rotate(60deg);
+}
+#three {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 0.8em;
+  top: 45%;
+  transform: rotate(90deg);
+}
+#four {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 88%;
+  bottom: 22%;
+  transform: rotate(-60deg);
+}
+#five {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 70%;
+  bottom: 4%;
+  transform: rotate(-30deg);
+}
+#six {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 49%;
+  bottom: 0;
+}
+#seven {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 70%;
+  bottom: 4%;
+  transform: rotate(30deg);
+}
+#eight {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 88%;
+  bottom: 20%;
+  transform: rotate(60deg);
+}
+#nine {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  left: 0.8em;
+  top: 45%;
+  transform: rotate(90deg);
+}
+#ten {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 88%;
+  top: 22%;
+  transform: rotate(-60deg);
+}
+#eleven {
+  width: 4px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  right: 70%;
+  top: 4%;
+  transform: rotate(-30deg);
+}
+
+/* POINTERS */
+#middle {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 47%;
+  z-index: 2;
+}
+#small {
+  width: 6px;
+  height: 50px;
+  background-color: #ffe3b5;
+  position: absolute;
+  top: 32%;
+  left: 55%;
+  transform: rotate(40deg);
+}
+#large {
+  width: 6px;
+  height: 100px;
+  background-color: #ffe3b5;
+  position: absolute;
+  top: 8%;
+  left: 49%;
+  transform: rotate(112deg);
+  transform-origin: 0 100%;
+}
+
+
+
+/* experience end*/
+
+
+
+/* footer start */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #D8A7B1;
+   color: black;
+   text-align: center;
+}
+
+/* footer end */
+
+
+
+/* education start */
+
+.button {
+  padding: 10px 20px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #F2B989}
+
+.button:active {
+  background-color: #F2B989;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* education end */
+
+
+
+
+
+/* experience start */
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+/* experience end */
+
+
+
+/* family start */
+
+
+
+<br><html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("file:///C:/Users/Asus/OneDrive/S5%20KIM1105B/IMD311%20SIR%20AIRUL/NUR%20FATIN%20ATIRAH%20BINTI%20MAHMAD%20ZULKEFLI_2020469242/assest/image/gallery_random_19.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* family end */
+
+
+
+/* gallery start */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* gallery end */
+
+
+
